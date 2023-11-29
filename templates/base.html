@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en-US">
+{% load static %}
+
+<!-- Mirrored from livewp.site/html/johnblack/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Nov 2023 18:04:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>{% block title %}
+    
+    {% endblock title %}</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon"                    href="{% static 'img/favicon.ico' %}" type="image/x-icon">
+	<link rel="apple-touch-icon"                 href="{% static 'img/apple_icons_57x57.png' %}">
+	<link rel="apple-touch-icon" sizes="72x72"   href="{% static 'img/apple_icons_72x72.png' %}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{% static 'img/apple_icons_114x114.png' %}">
+	
+	<!-- Fonts -->
+	<link rel="stylesheet" href='{% static "css/font-awesome.min.css" %}'>
+	<link href="{% static 'fonts.googleapis.com/cssb4aa.css' %} ?family=Titillium+Web:200,300,400,700,900" rel="stylesheet"><link href="../../../fonts.googleapis.com/css55d0.css" %}?family=Montserrat" rel="stylesheet"><link href="../../../fonts.googleapis.com/css740b.css" %}?family=Lato:300,300i,400,400i,900" rel="stylesheet">
+	<link rel="stylesheet" href='{% static "css/font-iconano.css" %}'>
+	
+	<!-- Theme style -->
+	<link rel='stylesheet' href='{% static "css/theme.css" %}'>
+	
+	<!-- Custom style -->
+	<link rel='stylesheet' href='{% static "css/custom.css" %}' type='text/css' media='all' />
+	
+	<!-- Responsive -->
+	<link rel='stylesheet' href='{% static "css/responsive.css" %}' type='text/css' media='all' />
+	
+</head>
+
+<body class="home page-template-default page page_with_abs_header dark_color_scheme">
+	<div class="gt3_preloader">
+		<div class="gt3_preloader_content">
+			<div class="arc1"></div>
+			<div class="arc2"></div>
+			<div class="arc3"></div>
+		</div>
+	</div>
+	<div class="main_header">
+		<div class="header_parent_wrap">
+			<header>
+				<div class="logo_sect" data-height="85">
+					<a href="{% url 'home' %}" class="logo">
+						<!-- Logo -->
+						<img src="{% static 'img/custom_logo.png' %}" class="custom_logo" alt="" width="90" height="70">
+					</a>
+				</div>
+				<div class="fright">
+					<nav class="menu-main-menu-container">
+						<ul id="menu-main-menu" class="menu">
+							<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children"><a href="#">Home</a>
+								<div class="sub-nav">
+									<ul class="sub-menu">
+										<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_item">
+											<a href="index-2.html">Home Fullscreen</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item">
+											<a href="index.html">Home Creative 2</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="index-3.html">Home Creative 3</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+								<a href="#">Photo</a>
+								<div class="sub-nav">
+									<ul class="sub-menu">
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="shift-slider.html">Shift Slider</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="video-bg.html">Video Slider</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="gallery-ribbon.html">Ribbon Gallery</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="flow-gallery.html">Flow Gallery</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="gallery-grid-type1.html">Grid Gallery 1</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="gallery-grid-type2.html">Grid Gallery 2</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="fullscreen-gallery.html">Fullscreen Gallery</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="packery-gallery.html">Packery Gallery</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="gallery-kenburns.html">Kenburns Slider</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+								<a href="#">Pages</a>
+								<div class="sub-nav">
+									<ul class="sub-menu">
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="striped.html">Striped</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="about.html">About</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="services.html">Services</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="image-bg.html">Image Bg</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="video-bg.html">Video Bg</a>
+										</li>
+										<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+											<a href="#">Portfolio Type</a>
+											<div class="sub-nav">
+												<ul class="sub-menu">
+													<li class="menu-item menu-item-type-post_type menu-item-object-page">
+														<a href="portfolio-1-column.html">1 Column Grid</a>
+													</li>
+													<li class="menu-item menu-item-type-post_type menu-item-object-page">
+														<a href="portfolio-grid-with-page-title.html">Grid with Page Title</a>
+													</li>
+													<li class="menu-item menu-item-type-post_type menu-item-object-page">
+														<a href="portfolio-grid-type1.html">Grid Type1</a>
+													</li>
+													<li class="menu-item menu-item-type-post_type menu-item-object-page">
+														<a href="portfolio-grid-type2.html">Grid Type2</a>
+													</li>
+													<li class="menu-item menu-item-type-post_type menu-item-object-page">
+														<a href="portfolio-fullscreen-style.html">Fullscreen Style</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+											<a href="#">Portfolio Post</a>
+											<div class="sub-nav">
+												<ul class="sub-menu">
+													<li class="menu-item menu-item-type-custom menu-item-object-custom">
+														<a href="post-with-image.html">Fullwidth Type</a>
+													</li>
+													<li class="menu-item menu-item-type-custom menu-item-object-custom">
+														<a href="blog-with-left-sidebar.html">With Left Sidebar</a>
+													</li>
+													<li class="menu-item menu-item-type-custom menu-item-object-custom">
+														<a href="blog-with-right-sidebar.html">With Right Sidebar</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="typography.html">Typography</a>
+										</li>
+										<li class="menu-item menu-item-type-custom menu-item-object-custom">
+											<a href="404page.html">Page 404</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="coming-soon.html">Coming Soon</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="modules.html">Modules</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+								<a href="#">Journal</a>
+								<div class="sub-nav">
+									<ul class="sub-menu">
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="blog-fullwidth.html">Fullwidth Blog</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="blog-with-left-sidebar.html">With Left Sidebar</a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="blog-with-right-sidebar.html">With Right Sidebar</a>
+										</li>
+										<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+											<a href="#">Journal Posts</a>
+											<div class="sub-nav">
+												<ul class="sub-menu">
+													<li class="menu-item menu-item-type-custom menu-item-object-custom">
+														<a href="post-with-video.html">Fullwidth</a>
+													</li>
+													<li class="menu-item menu-item-type-custom menu-item-object-custom">
+														<a href="post-with-slideshow.html">With Left Sidebar</a>
+													</li>
+													<li class="menu-item menu-item-type-custom menu-item-object-custom">
+														<a href="post-with-image.html">With Right Sidebar</a>
+													</li>
+													<li class="menu-item menu-item-type-post_type menu-item-object-post">
+														<a href="gallery-post.html">Gallery Post</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+								<a href="#">Shop</a>
+								<div class="sub-nav">
+									<ul class="sub-menu">
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="shop.html">All Products</a>
+										</li>
+										<li class="menu-item menu-item-type-custom menu-item-object-custom">
+											<a href="single-product.html">Single Product</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page">
+								<a href="contacts.html">Contact</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- lang_selector -->
+					<div class="lang_selector">
+						<a href="#" class="lang_btn current_language">Eng</a>
+						<ul class="language_list">
+							<li>Eng</li>
+							<li>Deu</li>
+							<li>Fra</li>
+						</ul>
+					</div>
+					<!-- //lang_selector -->
+					
+					<!-- top_search -->
+					<div class="top_search">
+						<form action="#" method="get" name="search_form">
+							<input type="text" class="ct-search-input" value="" name="s" placeholder="To search type and hit Enter">
+							<input type="submit" value="Search" class="s_submit">
+							<span class="top-icon-search"></span>
+						</form>
+					</div>
+					<!-- //top_search -->
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</header>
+		</div>
+	</div>
+	<div class="header_holder"></div>
+	<div class="mobile_menu_wrapper"></div>
+	<div class="sticky_menu_enabled"></div>
+	<div class="wrapper">
+        {% block content %}
+        
+        {% endblock content %}
+	
+	</div>
+	<!-- .wrapper -->
+	<div class="footer">
+		<div class="pre_footer">
+			<div class="container">
+				<div class="prefooter_wrapper">
+					<div class="footer_widget">
+						<div class="sidepanel widget_text">
+							<div class="textwidget">
+								<p>
+									<img src="{% static 'img/footer_logo.png' %}" width="65" height="60" alt="" />
+									<br />Often searching out the graphical symmetry in chaos, while still maintaining the personality and emotion of the subject.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="footer_widget">
+						<div class="sidepanel widget_categories">
+							<h3 class="title">Categories</h3>	
+							<ul>
+								<li class="cat-item cat-item-2">
+									<a href="#">Advertisiment</a>
+								</li>
+								<li class="cat-item cat-item-3">
+									<a href="#">Cities</a>
+								</li>
+								<li class="cat-item cat-item-4">
+									<a href="#">Fashion</a>
+								</li>
+								<li class="cat-item cat-item-5">
+									<a href="#">forest</a>
+								</li>
+								<li class="cat-item cat-item-6">
+									<a href="#">Portraits</a>
+								</li>
+								<li class="cat-item cat-item-7">
+									<a href="#">Stuff</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer_widget">
+						<div class="sidepanel widget_posts">
+							<h3 class="title">Recent Posts</h3>
+							<ul class="recent_posts">
+								<li class="with_img">
+									<div class="recent_posts_content">
+										<a href="#">
+											<img src="{% static 'img/featured_img-150x150-170x170.jpg' %}" alt="Post With Image">
+										</a>
+										<a href="#">Post With Image</a>
+										<div class="listing_meta">
+											<span>Sep 02 '16</span>
+											<span>by <a class="text_capitalize" href="#">gt3demo</a></span>
+										</div>
+									</div>
+								</li>
+								<li class="with_img">
+									<div class="recent_posts_content">
+										<a href="#">
+											<img src="{% static 'img/img9-150x150-170x170.jpg' %}" alt="Quote Post Format">
+										</a>
+										<a href="#">Quote Post Format</a>
+										<div class="listing_meta">
+											<span>Sep 02 '16</span>
+											<span>by <a class="text_capitalize" href="#">gt3demo</a></span>
+										</div>
+									</div>
+								</li>
+								<li class="with_img">
+									<div class="recent_posts_content">
+										<a href="#">
+											<img src="{% static 'img/featured_video-150x150-170x170.jpg' %}" alt="Post With Video">
+										</a>
+										<a href="#">Post With Video</a>
+										<div class="listing_meta">
+											<span>Sep 02 '16</span>
+											<span>by <a class="text_capitalize" href="#">gt3demo</a></span>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer_widget">
+						<div class="sidepanel widget_text">
+							<h3 class="title">GET IN TOUCH</h3>	
+							<div class="textwidget">
+								<div class="contact_info">
+									<div class="module_content">
+										<p>tel 212-456-7890</p>
+										<p>fax 212-346-7892</p>
+										<span class="icon-Phone"></span>
+									</div>
+									<div class="module_content">
+										<p>155 Sixth Avenue</p>
+										<p>12th Floor</p>
+										<p>New York, NY, USA 10013</p>
+										<span class="icon-Location"></span>
+									</div>
+									<div class="module_content">
+										<p>
+											<a href="mailto:#">info@company.com</a>
+										</p>
+										<span class="icon-Mail"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_wrapper" data-pad-top="15" data-pad-bottom="15">
+			<div class="copyright">&copy; 2020 John Black</div>
+			<div class="foot_info_block">
+				<ul class="social_icons">
+					<li>
+						<a title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+					</li>
+					<li>
+						<a title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li>
+						<a title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+					</li>
+					<li>
+						<a title="Behance" href="#"><i class="fa fa-behance"></i></a>
+					</li>
+					<li>
+						<a title="Pinterest" href="#"><i class="fa fa-pinterest"></i></a>
+					</li>
+					<li>
+						<a title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
+					</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<a href="#" class="back2top" title="Back to Top">Back to Top</a>
+	
+	<!-- jQuery -->
+	<script src="{% static 'js/jquery/jquery.js' %}"></script>
+	<script src="{% static 'js/jquery/jquery-migrate.min.js' %}"></script>
+	
+	<!-- Revolution slider -->
+	<script src="{% static 'js/revslider/jquery.themepunch.revolution.min.js' %}"></script>
+	<script src="{% static 'js/revslider/jquery.themepunch.tools.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/revslider/extensions/revolution.extension.slideanims.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/revslider/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/revslider/extensions/revolution.extension.navigation.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/revslider/extensions/revolution.extension.parallax.min.js' %}"></script>
+	<script src="{% static 'js/revslider/rvstart.js' %}"></script>
+	
+	<!-- Gallery -->
+	<script src="{% static 'js/gallery/jquery.gallery.isotope.min.js' %}"></script>
+	<script src="{% static 'js/gallery/jquery.gallery.sorting.js' %}"></script>
+	
+	<!-- Plugins -->
+	<script src="{% static 'js/plugins/jquery.scrollTo.js' %}"></script>
+	<script src="{% static 'js/plugins/jquery.waypoint.js' %}"></script>
+	<script src="{% static 'js/plugins/jquery.slick.min.js' %}"></script>
+	<script src="{% static 'js/theme.js' %}"></script>
+	
+</body>
+
+
+<!-- Mirrored from livewp.site/html/johnblack/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Nov 2023 18:05:51 GMT -->
+</html>
