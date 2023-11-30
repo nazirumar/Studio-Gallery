@@ -1,14 +1,25 @@
 from django.shortcuts import render
-
-
 from django.views.generic import ListView
 # Create your views here.
 from . models import Gallery,Contact, Service
 
 
-class  IndexView(ListView):
+
+class  Home1View(ListView):
     model = Gallery
     template_name = 'index.html'
+
+    
+
+class  FullScreen(ListView):
+    model = Gallery
+    template_name = 'index-2.html'
+
+    
+
+class  Home3View(ListView):
+    model = Gallery
+    template_name = 'index-3.html'
 
     
 
