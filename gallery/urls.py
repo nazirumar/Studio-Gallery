@@ -7,7 +7,21 @@ from . views import(
     ContactView,
     ServiceView,
     SingleView,
-AboutView
+AboutView,
+ServiceView,
+StripedView,
+ImageBlogView,
+VideoBgView,
+Page404View,
+VideoSlideView,
+ShiftSlideView,
+RibbonGalleryView,
+FlowGalleryView,
+GridGallery1View,
+GridGallery2View,
+FullScreenGalleryView,
+PackeryGalleryView,
+KenburnsSlideView,
 )
 
 
@@ -18,5 +32,18 @@ urlpatterns = [
     path('contact', ContactView.as_view(), name='contact'),
     path('service', ServiceView.as_view(), name='service'),
     path('single', SingleView.as_view(), name='single'),
-    path('about', AboutView.as_view(), name='about')
+    path('about', AboutView.as_view(), name='about'),
+    path('striped', StripedView.as_view(), name='striped'),
+    path('image-bg', ImageBlogView.as_view(), name='image-bg'),
+    path('video-bg', VideoBgView.as_view(), name='video-bg'),
+    path('404page', Page404View.as_view(), name='404page'),
+    path('video-slide', VideoSlideView.as_view(), name='video-slide'),
+    path('shift-slider', ShiftSlideView.as_view(), name='shift-slider'),
+    path('gallery-ribbon', RibbonGalleryView.as_view(), name='gallery-ribbon'),
+    path('flow-gallery', FlowGalleryView.as_view(), name='flow-gallery'),
+    path('gallery-grid-type1', GridGallery1View.as_view(), name='gallery-grid-type1'),
+    path('gallery-grid-type2', GridGallery2View.as_view(), name='gallery-grid-type2'),
+    path('fullscreen-gallery', FullScreenGalleryView.as_view(), name='fullscreen-gallery'),
+    path('packery-gallery', PackeryGalleryView.as_view(), name='packery-gallery'),
+    path('gallery-kenburns', KenburnsSlideView.as_view(), name='gallery-kenburns'),
 ]
